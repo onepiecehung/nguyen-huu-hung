@@ -1,0 +1,15 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "99tech",
+    "database": "99tech_db",
+    "synchronize": false,
+    "logging": false,
+    "entities": ["src/entities/**/*.ts"],
+    "migrations": ["src/migrations/**/*.ts"],
+    "cli": {
+      "migrationsDir": "src/migrations"
+    }
+  }
